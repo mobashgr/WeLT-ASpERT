@@ -7,20 +7,18 @@ Authors: Ghadeer Mobasher*, Olga Krebs, Wolfgang Müller, and Michael Gertz
 **Dependencies**
 Please make sure to install all required [dependencies](https://github.com/mobashgr/WeLT-ASpERT/blob/main/requirements.tx).
 
-## Data preparation
+## Data Preparation
 -Fetch Data :
  ```
 bash ./scripts/fetch_datasets.sh
 ```
-## Examples
+## Example
 Train CoNLL04 data:
 ```
 python main.py train --config configs/conll04_train.conf
 ```
-
  ## Citation
- TBD
-
+ Manuscript in preparation (TBD)
 
 ## References
 1. Markus Eberts, Adrian Ulges. Span-based Joint Entity and Relation Extraction with Transformer Pre-training. 24th European Conference on Artificial Intelligence, 2020.
