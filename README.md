@@ -18,7 +18,7 @@ Train CoNLL04 data :
 python main.py train --config configs/conll04_train.conf
 ```
  ## Citation
- Manuscript in preparation (TBD)
+ Manuscript is in preparation (TBD)
 
 ## References
 1. Markus Eberts, Adrian Ulges. Span-based Joint Entity and Relation Extraction with Transformer Pre-training. 24th European Conference on Artificial Intelligence, 2020.
