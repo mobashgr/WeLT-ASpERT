@@ -8,7 +8,7 @@ Authors: Ghadeer Mobasher*, Olga Krebs, Wolfgang Müller, and Michael Gertz
 Please make sure to install all required [dependencies](https://github.com/mobashgr/WeLT-ASpERT/blob/main/requirements.tx).
 
 ## Data Preparation
--Fetch Data :
+Fetch Data :
  ```
 bash ./scripts/fetch_datasets.sh
 ```
