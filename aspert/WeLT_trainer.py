@@ -92,7 +92,7 @@ class WeLTASpERTrainer (BaseTrainer):
         rescalledent = np.array(rescalledent)
         print(type(rescalledent))
         torchweights = torch.from_numpy(rescalledent).float().to('cuda')
-        '''Weight RE'''
+        '''Weight NRE'''
         rescaledweightsent = torch.softmax(torchweights, dim=0)
         entity_criterion = torch.nn.CrossEntropyLoss(weight=rescaledweightsent,reduction='none')
         compute_loss = ASpERTLoss(rel_criterion, entity_criterion, model, optimizer, scheduler, args.max_grad_norm)
