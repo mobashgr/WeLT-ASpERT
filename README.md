@@ -7,7 +7,7 @@ Authors: Ghadeer Mobasher*, Olga Krebs, Wolfgang Müller, and Michael Gertz
 **Dependencies**
 Please make sure to install all required [dependencies](https://github.com/mobashgr/WeLT-SpERT/requirements.txt).
 
-## Data preparation
+## Data Preparation
 -Fetch Data :
  ```
 bash ./scripts/fetch_datasets.sh
