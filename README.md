@@ -1,21 +1,21 @@
 # WeLT-ASpERT: Attention Weight Mechanism JNERE Using WeLT
 Authors: Ghadeer Mobasher*, Olga Krebs, Wolfgang Müller, and Michael Gertz 
 
-![WeLT-SpERT Architecture](SpERT-WeLT.png)
+![WeLT-ASpERT Architecture](WeLT_AsPERT.png)
 
 ## Installation 
 **Dependencies**
-Please make sure to install all required [dependencies](https://github.com/mobashgr/WeLT-SpERT/requirements.txt).
+Please make sure to install all required [dependencies](https://github.com/mobashgr/WeLT-ASpERT/blob/main/requirements.tx).
 
-## Data Preparation
+## Data preparation
 -Fetch Data :
  ```
 bash ./scripts/fetch_datasets.sh
 ```
 ## Examples
-(1) Train CoNLL04 on train dataset, evaluate on dev dataset:
+Train CoNLL04 data:
 ```
-python ./spert.py train --config configs/example_train.conf
+python main.py train --config configs/conll04_train.conf
 ```
 
  ## Citation
@@ -23,7 +23,9 @@ python ./spert.py train --config configs/example_train.conf
 
 
 ## References
-Markus Eberts, Adrian Ulges. Span-based Joint Entity and Relation Extraction with Transformer Pre-training. 24th European Conference on Artificial Intelligence, 2020.
+1. Markus Eberts, Adrian Ulges. Span-based Joint Entity and Relation Extraction with Transformer Pre-training. 24th European Conference on Artificial Intelligence, 2020.
+2. Jianquan Ouyang, Jing Zhang, Tianming Liu. Attention Weight is Indispensable in Joint Entity and Relation Extraction. INTELLIGENT AUTOMATION AND SOFT COMPUTING, 2022.
+
 
 
 ## Acknowledgment
